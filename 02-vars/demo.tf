@@ -16,3 +16,16 @@ output "ops" {
     value = "My first message is $(var.sample)"
 }
 
+# A Variable can be accessed directly by calling it as var.variableName, but if you're accessing in between a set of strings, then you need to enclose them in quotes and it should referred using ${var.VarName}
+# In Terraform there is no concept of Single Quotes.
+
+variable "number" {
+    default = 100
+}
+
+output "op_number" {
+ value = var.number
+
+}
+
+
