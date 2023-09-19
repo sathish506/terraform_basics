@@ -43,7 +43,7 @@ variable "sample_list" {
 }
 
    output "Print_List" {
-    value = "Welcome to ${var.sample_list[0]} Training and the batch number is ${var.sample_list[1]} and the class number is ${var.sample_list[3]} "
+    value = "Welcome to ${var.sample_list[0]} Training and the batch number is ${var.sample_list[1]} and the class number is ${var.sample_list[3]}"
    }
 
 
