@@ -78,9 +78,8 @@ output "sample_map_op" {
 
  }
 
- variable "country" {}
+variable "country" {}
 
- output "country_name" {
-  value = "Name of the country is ${var.country}"
-  
- }
+output "country_name" {
+    value = "Name Of our country is ${var.country}"
+}
