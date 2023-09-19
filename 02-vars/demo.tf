@@ -30,4 +30,17 @@ output "op_number" {
 
 }
 
+# Declaring a List Variable
+
+variable "sample_list" {
+    default = [
+        "Devops",
+        "Batch55",
+        "Terraform",
+         46,
+         "Class"
+    ]
+}
+
+        
 
