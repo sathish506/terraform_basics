@@ -60,7 +60,7 @@ variable "sample_map" {
 # How to print a Map variable
 
 output "sample_map_op" {
-    "${var.sample_map["Training"]} has great scope of opportunites and this is complete ${var.sample_map["Mode"]} Training"
+   value = "${var.sample_map["Training"]} has great scope of opportunites and this is complete ${var.sample_map["Mode"]} Training"
 }
 
 
