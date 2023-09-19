@@ -47,4 +47,20 @@ variable "sample_list" {
    }
 
 
+# Declaring a Map variable
+
+variable "sample_map" {
+    default = {
+       batch = "B55"
+       Mode = "online"
+       Training = "Devops with AWS training"
+    }
+}
+
+# How to print a Map variable
+
+output "sample_map_op" {
+    "${var.sample_map["Training"]} has great scope of opportunites and this is complete ${var.sample_map["Mode"]} Training"
+}
+
 
