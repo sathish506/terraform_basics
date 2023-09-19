@@ -69,4 +69,18 @@ output "sample_map_op" {
  output "city_name" {
   value = "Name of the city is ${var.city}"
  }
- 
+
+
+ variable "state" {}
+
+ output "state_name" {
+  value = "Name of the city is ${var.state}"
+
+ }
+
+ variable "country" {}
+
+ output "country_name" {
+  value = "Name of the city is ${var.country}"
+  
+ }
