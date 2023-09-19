@@ -14,3 +14,7 @@ With Terraform, you can define the desired state of your infrastructure using a 
 1) All the infra files end's with *.tf
 2) All the variable files ends with *.tfvars and terraform.tfvars is the default terraform variables file  which will be recognized by terraform by default.
 3) Any variables file *.tfvars part from terraform.tfvars has to be explicity mentioned while running terraform commands.
+
+   How to supply the varaibles file as a part of the terraform apply ?
+
+    $ terraform plan -var-file=dev.tfvars 
