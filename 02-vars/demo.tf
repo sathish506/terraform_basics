@@ -13,7 +13,9 @@ output "op" {
 # whenever you want to print a variable in the group of words you need to use the bash syntax.
 
 output "ops" {
-    value = "My first message is $(var.sample)"
+    
+ value = "my first msg is ${var.sample}"
+
 }
 
 # A Variable can be accessed directly by calling it as var.variableName, but if you're accessing in between a set of strings, then you need to enclose them in quotes and it should referred using ${var.VarName}
