@@ -24,8 +24,8 @@ With Terraform, you can define the desired state of your infrastructure using a 
     $  terraform plan -var-file=dev.tfvars  -var states=28
 
 
-     #####    Attribute vs Argument in Terraform  #####
-     
+               #########    Attribute vs Argument in Terraform  #########
+
 Argument : This comes up as a part of the resource creation! This is to define properties to the resource you're creating.
 
 argument example : 
